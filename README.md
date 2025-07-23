@@ -20,9 +20,19 @@ Built using Python, `customtkinter`, and `bleak`, it supports power control, col
 
 ---
 
+## Credits
+
+- Based on the original ELK BLEDOM Bluetooth LED strip controller by [TheSylex](https://github.com/TheSylex/ELK-BLEDOM-bluetooth-led-strip-controller)
+- This project was created using and inspired by [lorgan3’s lotus-lantern-client](https://github.com/lorgan3/lotus-lantern-client)
+- BLE functionality powered by [Bleak](https://github.com/hbldh/bleak)
+- Development assistance from OpenAI’s ChatGPT
+
+ ---
+ 
 ## 🖥️ Screenshots
 
 *(Include screenshots in your repo and reference them here)*  
 ```md
 ![Main UI](screenshots/ui_main.png)
 ![Color Picker](screenshots/ui_colorpicker.png)
+
