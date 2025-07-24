@@ -1,37 +1,36 @@
-# 🌸 Lotus Lantern - BLE LED Controller
+# 🌸 Lotus Lantern
 
-**Lotus Lantern** is a simple, modern desktop application to control BLE-enabled RGB LED lights.  
-Built using Python, `customtkinter`, and `bleak`, it supports power control, color picking, brightness adjustment, lighting effects, and effect speed — all in a sleek dark-mode GUI.
+A modern Python desktop app to control BLE LED strips wirelessly.  
+Simple, dark-themed UI with system tray support, persistent settings, and effect previews.  
+Built with [CustomTkinter](https://github.com/TomSchimansky/CustomTkinter) and [Bleak](https://github.com/hbldh/bleak).
 
-> 🔌 Ideal for DIY LED strips, BLE light bulbs, or any device that uses GATT-based LED control.
-
----
-
-## 🚀 Features
-
-- ✅ Auto-scan and connect to BLE devices
-- 🎨 RGB color selection
-- 💡 Brightness control (0–255)
-- 🌈 Multiple light modes: Static, Fade, Blink, Rainbow, Strobe, Wave
-- ⏩ Effect speed control
-- 💾 Remembers your last settings
-- 🖼 Modern dark-themed interface (CustomTkinter)
-- 📦 Lightweight, no bloat
+![UI Screenshot](https://github.com/FreeAkrep/Lotus-Lantern-win/blob/main/screenshots/ui_main.png?raw=true)
 
 ---
 
-## Credits
+## ✨ Features
 
-- Based on the original ELK BLEDOM Bluetooth LED strip controller by [TheSylex](https://github.com/TheSylex/ELK-BLEDOM-bluetooth-led-strip-controller)
-- This project was created using and inspired by [lorgan3’s lotus-lantern-client](https://github.com/lorgan3/lotus-lantern-client)
-- BLE functionality powered by [Bleak](https://github.com/hbldh/bleak)
-- Development assistance from OpenAI’s ChatGPT
+- 🔌 Connect to BLE-enabled LED controllers
+- 🎨 Change LED colors with color picker or tray presets
+- 💡 Adjust brightness (scaled 1–5)
+- 🎭 Switch between lighting modes: Static, Fade, Blink, Rainbow, Strobe, Wave
+- ⚡ Adjust effect speed
+- 💾 Remembers last settings on next launch
+- 🧲 Minimize to system tray with full tray control
+- 🔧 Simple JSON-based config
 
- ---
- 
-## 🖥️ Screenshots
+---
 
-*(Include screenshots in your repo and reference them here)*  
-![Main UI](screenshots/ui_main.png)
-![Color Picker](screenshots/ui_colorpicker.png)
+## 📦 Installation (Windows)
+
+### Option 1: Run from Source (Recommended)
+
+1. Install Python 3.10+  
+2. Clone this repo:
+
+```bash
+git clone https://github.com/FreeAkrep/Lotus-Lantern-win
+cd Lotus-Lantern-win
+pip install -r requirements.txt
+python main.py
 
