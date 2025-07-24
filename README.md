@@ -32,7 +32,6 @@ Built using Python, `customtkinter`, and `bleak`, it supports power control, col
 ## 🖥️ Screenshots
 
 *(Include screenshots in your repo and reference them here)*  
-```md
 ![Main UI](screenshots/ui_main.png)
 ![Color Picker](screenshots/ui_colorpicker.png)
 
