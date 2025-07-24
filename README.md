@@ -16,7 +16,6 @@ Built with [CustomTkinter](https://github.com/TomSchimansky/CustomTkinter) and [
 - 🎭 Switch between lighting modes: Static, Fade, Blink, Rainbow, Strobe, Wave
 - ⚡ Adjust effect speed
 - 💾 Remembers last settings on next launch
-- 🧲 Minimize to system tray with full tray control
 - 🔧 Simple JSON-based config
 
 ---
