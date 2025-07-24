@@ -33,4 +33,38 @@ git clone https://github.com/FreeAkrep/Lotus-Lantern-win
 cd Lotus-Lantern-win
 pip install -r requirements.txt
 python main.py
+```
+# 🪟 Windows Build
+
+Build the standalone .exe using PyInstaller
+```bash
+pip install pyinstaller
+pyinstaller --noconfirm --onefile --windowed --icon=icon.ico main.py
+```
+The built .exe will be in the dist/ folder.
+
+# 🐧 Linux Build
+```bash
+pip install pyinstaller
+pyinstaller --noconfirm --onefile --windowed main.py
+```
+You may need to install Bluetooth development headers:
+```bash
+sudo apt install libbluetooth-dev
+```
+💡 Ensure you have permission to access BLE devices (add user to the bluetooth group or run with sudo).
+# 🏆 Credits
+Main Developer: FreeAkrep
+
+BLE Command Logic Inspired By:
+
+  [lorgan3/lotus-lantern-client)](https://github.com/lorgan3/lotus-lantern-client)
+
+  [TheSylex/ELK-BLEDOM-bluetooth-led-strip-controller](https://github.com/TheSylex/ELK-BLEDOM-bluetooth-led-strip-controller)
+
+BLE Library: [Bleak](https://github.com/hbldh/bleak)
+
+UI Framework: [CustomTkinter](https://github.com/TomSchimansky/CustomTkinter)
+
+Thanks to the open-source community for making this possible!
 
