@@ -28,7 +28,7 @@ Built with [CustomTkinter](https://github.com/TomSchimansky/CustomTkinter) and [
 2. Clone this repo:
 
 ```bash
-git clone https://github.com/FreeAkrep/Lotus-Lantern-win
+git clone https://github.com/FreeAkrep/Lotus-Lantern-GUI
 cd Lotus-Lantern-win
 pip install -r requirements.txt
 python main.py
