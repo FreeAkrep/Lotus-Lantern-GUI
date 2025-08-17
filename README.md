@@ -29,7 +29,7 @@ Built with [CustomTkinter](https://github.com/TomSchimansky/CustomTkinter) and [
 
 ```bash
 git clone https://github.com/FreeAkrep/Lotus-Lantern-GUI
-cd Lotus-Lantern-win
+cd Lotus-Lantern-GUI
 pip install -r requirements.txt
 python main.py
 ```
